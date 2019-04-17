@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sentinel-dubbo-example</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>sentinel-dubbo-web</module>
+        <module>sentinel-dubbo-user-api</module>
+        <module>sentinel-dubbo-user-service</module>
+    </modules>
 
 
 </project>

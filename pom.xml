@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>sentinel-duubo-starter</module>
         <module>sentinel-dubbo-example</module>
+        <module>sentinel-dubbo-starter</module>
     </modules>
 
     <parent>
@@ -22,10 +22,6 @@
     <properties>
         <lombok.version>1.18.0</lombok.version>
     </properties>
-
-    <dependencyManagement>
-
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
