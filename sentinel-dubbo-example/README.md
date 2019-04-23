@@ -80,3 +80,6 @@ dubbo.consumer.check=false
 
 ####4、服务消费者(sentinel-dubbo-web)
 和上面的步骤3一样
+
+#####将sentinel控制台监控数据持久化【MySQL】
+https://www.cnblogs.com/cdfive2018/p/9838577.html

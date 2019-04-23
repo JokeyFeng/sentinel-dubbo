@@ -11,6 +11,7 @@
     <modules>
         <module>sentinel-dubbo-example</module>
         <module>sentinel-dubbo-starter</module>
+        <module>dubbo-fescar-example</module>
     </modules>
 
     <parent>
