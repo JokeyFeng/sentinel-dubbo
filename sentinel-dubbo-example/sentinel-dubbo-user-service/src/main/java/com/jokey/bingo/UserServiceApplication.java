@@ -1,10 +1,12 @@
 package com.jokey.bingo;
 
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
+import com.jokey.bingo.service.common.ApplicationUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 
 /**
  * @author Zhengjingfeng
@@ -13,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @NacosPropertySource(dataId = "example", autoRefreshed = true)
+@Import({ApplicationUtil.class})
 public class UserServiceApplication {
     private static Logger logger = LoggerFactory.getLogger(UserServiceApplication.class);
 
