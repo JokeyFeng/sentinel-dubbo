@@ -15,6 +15,7 @@
         <module>sentinel-dubbo-web</module>
         <module>sentinel-dubbo-user-api</module>
         <module>sentinel-dubbo-user-service</module>
+        <module>dubbo-common</module>
     </modules>
 
 

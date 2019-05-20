@@ -1,10 +1,9 @@
 package com.jokey.bingo;
 
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
-import com.jokey.bingo.service.common.ApplicationUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
+import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * @author Zhengjingfeng
@@ -14,9 +13,8 @@ import org.springframework.context.annotation.Import;
 
 @NacosPropertySource(dataId = "portal", autoRefreshed = true)
 @SpringBootApplication
-@Import({ApplicationUtil.class})
 public class PortalApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PortalApplication.class, args);
+        ConfigurableApplicationContext applicationContext = SpringApplication.run(PortalApplication.class, args);
     }
 }

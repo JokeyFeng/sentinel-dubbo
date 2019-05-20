@@ -67,11 +67,10 @@
             <artifactId>sentinel-parameter-flow-control</artifactId>
             <version>1.5.0</version>
         </dependency>
-
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>transmittable-thread-local</artifactId>
-            <version>2.10.2</version>
+            <groupId>com.jokey.bingo</groupId>
+            <artifactId>dubbo-common</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
